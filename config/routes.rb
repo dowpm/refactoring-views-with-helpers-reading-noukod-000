@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'authors/show', to: 'author#show'
+  get 'authors/show', to: 'author#show', as: 'author'
 
   get 'test/index'
 
